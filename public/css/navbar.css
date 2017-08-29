@@ -9,7 +9,7 @@
 	font-size: 18px;
 	line-height: 20px;
 	margin-left: 20px;
-	color: #FFF;
+	color: #333;
 	transition: all 0.3s ease;
 	/*color: #BF360C;*/
 }
@@ -69,8 +69,8 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	margin-bottom: 0;
-	background-color: #900020;
-	border-color: #900020;
+	background-color: #FFF;
+	/*border-color: #900020;*/
 }
 .navbar-default a{
 	font-size: 13px;
@@ -79,7 +79,7 @@
 .navbar-default .navbar-nav>.open>a:focus, 
 .navbar-default .navbar-nav>.open>a:hover {
 	background-color: #AC0026;
-	color: #FFF;
+	color: #333;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -89,12 +89,14 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   /*color: rgb(53, 89, 135);*/
-	color: #FFF;
+	color: #333;
+	border-bottom: 3px solid #AC0026;
 }
 .navbar-default .navbar-nav > li > a{
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #EEE;
+	color: #333;
+	border-bottom: 3px solid #FFF;
 }
 .navbar-nav .dropdown-menu {
 	box-shadow: 2px 2px 10px rgba(0,0,0,0.175);
@@ -108,14 +110,14 @@
 }
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-		color: #FFF;
+		color: #333;
 	}
 }
 .navbar-default .navbar-toggle .icon-bar{
-	background-color: #FFF;
+	background-color: #777;
 }
 .navbar-default .navbar-toggle:hover{
-	background-color: #AC0026;	
+	background-color: #FFF;	
 }
 .dropdown-menu .divider {
 	height: 1px;

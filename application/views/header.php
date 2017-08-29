@@ -65,7 +65,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle"></a>
-                <p class="navbar-text">Dhvanyaloka Centre for Indian Studies</p>
+                <p class="navbar-text"><span class="head">Dhvanyaloka</span><br /><span class="subhead">Centre for Indian Studies</span></p>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <?=$this->printNavigation($navigation)?>

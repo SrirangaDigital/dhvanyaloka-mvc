@@ -8,17 +8,20 @@
 .navbar-default .navbar-text{
 	font-size: 18px;
 	line-height: 20px;
-	margin-left: 20px;
 	color: #333;
 	transition: all 0.3s ease;
-	/*color: #BF360C;*/
+}
+.navbar-default .navbar-text .head{
+	font-size: 20px !important;
+	display: inline-block;
+	font-weight: bold !important;
+}
+.navbar-default .navbar-text .subhead{
+	display: none;
 }
 @media(min-width:768px) {
 	.navbar-default .navbar-brand{
 		padding: 5px 0px 5px 0px;
-	}
-	.navbar-default .navbar-text{
-		margin-left: 0px;
 	}
 	.wider{
 		transition: all 0.3s ease;
@@ -28,15 +31,21 @@
 		transition: height 0.3s ease;
 		margin-top: 15px !important;
 	}
-	.wider .navbar-text{
+	.wider .navbar-text .head{
+		font-size: 24px !important;
+		margin-top: 30px !important;
+		transition: all 0.3s ease;
+		display: inline-block;
+	}
+	.wider .navbar-text .subhead{
+		display: inline-block;
 		font-size: 14px !important;
-		font-weight: bold !important;
-		margin-top: 35px !important;
+		/*margin-top: 15px !important;*/
 		transition: all 0.3s ease;
 	}
 	.wider .navbar-nav>li>a {
 		padding-top: 35px !important;
-		padding-bottom: 35px !important;
+		padding-bottom: 32px !important;
 	}
 }
 @media(min-width:1000px) {
@@ -54,15 +63,21 @@
 		margin-top: 0 !important;
 		transition: height 0.3s ease;
 	}
-	.wider .navbar-text{
-		font-size: 18px !important;
-		font-weight: bold !important;
-		margin-top: 35px !important;
+	.wider .navbar-text .head{
+		font-size: 24px !important;
+		margin-top: 10px !important;
 		transition: all 0.3s ease;
+		display: inline-block;
+	}
+	.wider .navbar-text .subhead{
+		font-size: 14px !important;
+		/*margin-top: 15px !important;*/
+		transition: all 0.3s ease;
+		display: inline-block;
 	}
 	.wider .navbar-nav>li>a {
 		padding-top: 35px !important;
-		padding-bottom: 35px !important;
+		padding-bottom: 32px !important;
 	}
 }
 .navbar-default{
@@ -73,7 +88,7 @@
 	/*border-color: #900020;*/
 }
 .navbar-default a{
-	font-size: 13px;
+	font-size: 14px;
 }
 .navbar-default .navbar-nav>.open>a, 
 .navbar-default .navbar-nav>.open>a:focus, 
@@ -127,14 +142,16 @@
 }
 @media(max-width:1180px) {
 	.navbar-default a{
-		font-size: 11px;
+		font-size: 14px;
 	}
 	.nav>li>a{
 		padding-right: 5px;
 	}
-	.wider .navbar-text {{
-		font-size: 16px !important;
-	    font-weight: bold !important;
+	.wider .navbar-text .head{{
+		font-size: 24px !important;
+	}
+	.wider .navbar-text .subhead{{
+		font-size: 14px !important;
 	}
 }
 @media(max-width:1080px) {

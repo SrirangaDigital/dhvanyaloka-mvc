@@ -98,3 +98,24 @@
 .flat-page .banner{
 	margin: 30px auto;
 }
+.flat-page .cover-image-carousel{
+	margin-top: 50px;
+}
+.flat-page .cover-image-carousel a{
+	display: inline-block;
+	width: 180px;
+	margin: 0 10px;
+	text-align: center;
+	color: #555;
+}
+.flat-page .cover-image-carousel img{
+	height: 150px;
+	margin: 0 auto;
+	border: 1px solid #E0E0E0;
+}
+.flat-page .cover-image-carousel p{
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: 12px;
+}

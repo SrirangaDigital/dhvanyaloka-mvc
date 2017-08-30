@@ -90,7 +90,7 @@
 }
 .flat-page .subnav ul li a{
   color: #555;
-  border-bottom: 2px dotted #ea5644;
+  /*border-bottom: 2px dotted #ea5644;*/
 }
 .flat-page .subnav ul li a:hover, .flat-page .subnav ul li a.active{
   border-bottom: 2px solid #ea5644;

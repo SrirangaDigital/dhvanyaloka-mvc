@@ -1,84 +1,21 @@
-<h1>Fellowship</h1>
-<h2>FASc: Fellow of the Indian Academy of Sciences</h2>
-
-<div class="row">
-    <div class="col-md-5">
-        <nav>
-        	<ul class="list-unstyled">
-        		<li><a href="<?=BASE_URL . 'listing/fellows'?>">Present Fellows</a></li>
-        		<li><a href="<?=BASE_URL . 'listing/fellows/women'?>">Present women Fellows</a></li>
-                <li><a href="<?=BASE_URL . 'listing/fellows/deceased'?>">Deceased Fellows</a></li>
-                <li><a href="<?=BASE_URL . 'listing/fellows/deceased,women'?>">Deceased women Fellows</a></li>
-                <li><a href="<?=BASE_URL . 'listing/fellows/honorary'?>">Honorary Fellows</a></li>
-                <li><a href="<?=BASE_URL . 'listing/fellows/deceased,honorary'?>">Deceased Honorary Fellows</a></li>
-        	</ul>
-        </nav>
-    </div>
-    <div class="col-md-6">
-        <ul class="list-unstyled" style="margin-top: 20px">
-            <li>
-                <form method="post" action="<?=BASE_URL . 'search/fellow'?>" class="form-horizontal">
-                    <div class="form-group">
-                        <label for="name" class="control-label col-xs-2">Name</label>
-                        <div class="col-xs-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="address" class="control-label col-xs-2">Place</label>
-                        <div class="col-xs-10">
-                            <input type="text" class="form-control" id="city" name="city" placeholder="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="section" class="control-label col-xs-2">Section</label>
-                        <div class="col-xs-10">
-                            <select class="form-control" id="section" name="section">
-                                <option value="">Select section</option>
-                                <option value="Animal sciences">Animal sciences</option>
-                                <option value="Chemistry">Chemistry</option>
-                                <option value="Earth &amp; planetary sciences">Earth &amp; planetary sciences</option>
-                                <option value="Engineering &amp; technology">Engineering &amp; technology</option>
-                                <option value="General biology">General biology</option>
-                                <option value="Mathematical sciences">Mathematical sciences</option>
-                                <option value="Medicine">Medicine</option>
-                                <option value="Physics">Physics</option>
-                                <option value="Plant sciences">Plant sciences</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="yearelected" class="control-label col-xs-2">Year</label>
-                        <div class="col-xs-10">
-                            <input type="text" class="form-control" id="yearelected" name="yearelected" placeholder="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-xs-8">
-                            <label for="togglePast"><input type="checkbox" id="togglePast"> Inlcude past Fellows</label>
-                        </div>
-                        <div class="col-xs-4">
-                            <input type="hidden" id="type" name="type" value="^$|^honorary$">
-                            <button type="submit" class="btn btn-primary naked">Submit</button>
-                        </div>
-                    </div>
-                </form>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-1">&nbsp;</div>
+<div class="col-md-3 clear-paddings subnav">
+    <ul class="">
+        <li><a href="Culture_and_Civilization">Culture and Civilization</a></li>
+        <li><a href="Indian_Women_-_Tradition_and_Change">Indian Women - Tradition and Change</a></li>
+        <li><a href="Science,_Technology_and_Sustainable_Development">Science, Technology and Sustainable Development</a></li>
+        <li><a href="Field_Trips">Field Trips</a></li>
+    </ul>
 </div>
+<div class="col-md-9 clear-paddings">
+    <!-- Breadcrumb will be inserted here -->
+    <?=$this->printBreadcrumb($path)?>
 
-<p class="gap-above-med">Choose from the above to retrieve corresponding list of profiles of Fellows, or use the search form below to retrieve profiles from list of present Fellows. Search may be performed by name or part of name of Fellow, place of work, section in which elected, and year of election, with an option to include past Fellows.</p>
+    <h1>Courses</h1>
+    <h2>Program Details</h2>
 
-<hr />
-
-<h3>Information about nomination to the fellowship</h3>
-<p>The <a href="<?=BASE_URL?>About_IASc/Statutes/#elections">process of election</a> of Fellows is described in the statutes.</p>
-<ul>
-    <li>Nomination forms are provided only to the Fellows and are not made available on the Academy website.</li>
-    <li>Those pursuing research in India are eligible to be nominated.</li>
-    <li>The last date for receipt of new nominations is 31st May.</li>
-    <li>The Academy offers only fellowship and not membership against payment.</li>
-</ul>
-<p>List of founding fellows can be seen <a href="Founding_fellows">here.</a></p>
+    <p>The Program includes courses like Culture and Civilization- focusing particularly on Karnataka; Indian Women- Tradition and Change; Science, Technology and Sustainable Development in post Independent India and Indian Literatures. Apart from these, other subjects offered are Sanskrit, Kannada or Hindi.</p>
+    <p>Arrangements are also made for students who would like to learn Bharathanatyam, Carnatic and Hindustani Music, Instruments like Violin, Tabla, Veena and Mridangam.  Yoga can also be taught.</p>
+    <p>During the final month, students pursue independent research projects or participate in an internship.  Research projects will be carried out under the guidance of Indian faculty and will be designed by the students to focus on their specific academic interest.</p>
+    <p>Possible projects include study of music, dance or other traditional arts or independent field work on a variety of topics.  Internships in governmental and non-governmental organizations located either in Mysore or Bangalore focus on sustainable development, women’s issues, health, business and management or other contemporary concerns. Academic credit will be proportional to the effort.</p>
+    <p>After completing their research projects and internships, the students will reconvene in Mysore during the final week of the program for a seminar conducted jointly by students, coordinators and faculty.  Purpose of this final week is to give the students an opportunity to learn from each other’s projects and internships, as well as to reflect together on their experiences in India.</p>
+</div>

@@ -66,9 +66,10 @@
 }
 .override-carousel-caption {
     position: absolute;
-    border-top: 3px solid #ea5644;
+    /*border-top: 3px solid #ea5644;*/
 }
 .caption-content {
+    font-size: 16px;
     padding: 30px;
 }
 .caption-title {

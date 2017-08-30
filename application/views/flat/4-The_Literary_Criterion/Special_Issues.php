@@ -139,6 +139,4 @@
             <p>Tenth year of Publication</p>
         </a>
     </div>
-
-
 </div>

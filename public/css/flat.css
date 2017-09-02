@@ -95,6 +95,9 @@
 .flat-page .subnav ul li a:hover, .flat-page .subnav ul li a.active{
   border-bottom: 2px solid #ea5644;
 }
+.flat-page .subnav img{
+	width: 160px;
+}
 .flat-page .banner{
 	margin: 30px auto;
 }

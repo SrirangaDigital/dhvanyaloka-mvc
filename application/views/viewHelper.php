@@ -36,11 +36,11 @@ class viewHelper extends View {
                 }
                 if($authorname != "")
                 {
-                    $title = '<span class="sub_titlespan"><a target="_blank" href="'. PUBLIC_URL . 'books/' . $book_id . '.pdf#page=' . $page . '">' . $title . ' </a></span><br/><span class="authorspan">&nbsp;&nbsp;&nbsp;-&nbsp;' . $authorname . '</span>';
+                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/><span class="authorspan">&nbsp;&nbsp;&nbsp;-&nbsp;' . $authorname . '</span>';
                 }
                 else
                 {
-                    $title = '<span class="sub_titlespan"><a target="_blank" href="'. PUBLIC_URL . 'books/' . $book_id . '.pdf#page=' . $page . '">' . $title . ' </a></span>';
+                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span>';
                 }
 
                 if($first)
@@ -115,6 +115,17 @@ class viewHelper extends View {
         
         return $str_tabs;
     }
+    
+    public function linkPDF($book_id, $page, $title){
+		
+		if(file_exists(PHY_PUBLIC_URL . 'books/' . $book_id . '.pdf')){
+			
+			return '<a target="_blank" href="' . PUBLIC_URL . 'books/' . $book_id . '.pdf#page=' . $page . '">' . $title . '</a>';
+		}
+		else{
+			return '<a href="#">' . $title . '</a>';
+		}
+	}
 }
 
 ?>

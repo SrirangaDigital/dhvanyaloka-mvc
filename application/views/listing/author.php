@@ -5,7 +5,10 @@
             <div class="col-padded"><!-- inner custom column -->
                 <div class="flat-page">
                     <div class="col-md-3 clear-paddings subnav">
-                        <img src="<?=STOCK_IMAGE_URL . 'covers/' . $data[0]['book_id'] . '.jpg'?>" class="img-responsive" alt="<?=$data[0]['btitle']?>">
+                       <ul class="">
+                            <li><a class="active" href="<?=BASE_URL?>listing/books">Special Issues</a></li>
+                            <li><a href="../The_Literary_Criterion/#Subscription">Subscription</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-9 clear-paddings">
                         <!-- Breadcrumb will be inserted here -->
@@ -15,9 +18,9 @@
                             <li>Special Issues</li>
                         </ol>
 
-                        <h1><?=$data[0]['btitle']?></h1>
-                        <h2>The Literary Criterion - A Special Issue</h2>
-                        <?=$viewHelper->displayToc($data)?>
+                        <h1><?=$data[0]['author']?></h1>
+                        <h2>List of Articles</h2>
+                        <?=$viewHelper->displayTitles($data)?>
                         <div class="cover-image-carousel">
 
                         </div>
@@ -25,15 +28,3 @@
                 </div>
             </div>
         </div>
-
-<!-- <div class="container">
-    <div class="row gap-above">
-        <div class="col-sm-8 col-md-8 col-lg-8">
-            
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-            <p><img class="img-thumbnail img-p" src="<?=STOCK_IMAGE_URL . '/covers/'. $data[0]['book_id'] . '.jpg'?>" alt="" /></p>
-        </div>
-    </div>
-</div>    
- -->

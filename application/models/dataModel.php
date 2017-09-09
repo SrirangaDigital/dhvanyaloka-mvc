@@ -29,6 +29,7 @@ class dataModel extends Model {
 				$booksList['btitle'] = (string) $book['btitle'];
 				$booksList['level'] = 1;
 				$booksList['title'] = (string) $s1Level['title'];
+				$booksList['author'] = (string) $s1Level['author'];
 				$booksList['page'] = (string) $s1Level['page'];
 				
 				array_push($metaData, $booksList);
@@ -42,13 +43,14 @@ class dataModel extends Model {
 						$booksList['btitle'] = (string) $book['btitle'];
 						$booksList['level'] = 2;
 						$booksList['title'] = (string) $s2Level['title'];
+						$booksList['author'] = (string) $s2Level['author'];
 						$booksList['page'] = (string) $s2Level['page'];
 
 						array_push($metaData, $booksList);
 						$booksList = array();
 					}
 				}
-			}			
+			}
 		}
 
 		return $metaData;

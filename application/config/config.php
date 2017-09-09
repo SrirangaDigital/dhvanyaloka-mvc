@@ -7,7 +7,7 @@ define('STOCK_IMAGE_URL', PUBLIC_URL . 'images/stock/');
 define('PRECAST_URL', BASE_URL . 'precast/');
 
 // Physical location of resources
-define('PHY_BASE_URL', '/var/www/html/dhvanyaloka-mvc/');
+define('PHY_BASE_URL', '/var/www/dhvanyaloka-mvc/');
 define('PHY_PUBLIC_URL', PHY_BASE_URL . 'public/');
 define('PHY_XML_SRC_URL', PHY_BASE_URL . 'md-src/xml/');
 define('PHY_FLAT_URL', PHY_BASE_URL . 'application/views/flat/');

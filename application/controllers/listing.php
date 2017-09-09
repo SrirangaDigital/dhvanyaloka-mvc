@@ -23,6 +23,12 @@ class listing extends Controller {
 		$data = $this->model->listToc($book_id);
 		($data) ? $this->view('listing/toc', $data) : $this->view('error/index');
 	}
+
+	public function authors($author) {
+
+		$data = $this->model->listTitles($author);
+		($data) ? $this->view('listing/author', $data) : $this->view('error/index');
+	}
 }
 
 ?>

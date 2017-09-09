@@ -26,17 +26,12 @@ class viewHelper extends View {
                 $btitle = $row['btitle'];
                 $level = $row['level'];
                 $title = $row['title'];
+                $authorname = $row['author'];
                 $page = $row['page'];
-                $authorname = '';
                 
-                $title = preg_replace('/(.*) - <i>(.*)<\/i>/', "$1", $row['title']);
-                if(preg_match('/(.*) - <i>(.*)<\/i>/', $row['title']))
-                {
-                    $authorname = preg_replace('/(.*) - <i>(.*)<\/i>/', "<i>$2</i>", $row['title']);
-                }
                 if($authorname != "")
                 {
-                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/><span class="authorspan">&nbsp;&nbsp;&nbsp;-&nbsp;' . $authorname . '</span>';
+                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/><a href="' . BASE_URL . 'listing/authors/' . $authorname . '"><span class="authorspan">&nbsp;&nbsp;&nbsp;-&nbsp;' . $authorname . '</span></a>';
                 }
                 else
                 {
@@ -100,6 +95,33 @@ class viewHelper extends View {
 
         echo "</div>";
     }    
+    
+    public function displayTitles($data) {
+
+        $bullet = '<img class="bpointer" src="'. STOCK_IMAGE_URL . 'bullet_1.gif" alt="Point" />';
+        $tmp = '';
+			echo "<div class=\"treeview tab-pane\">";
+            foreach($data as $row) {
+
+                $book_id = $row['book_id'];
+                $btitle = $row['btitle'];
+                $level = $row['level'];
+                $title = $row['title'];
+                $authorname = $row['author'];
+                $page = $row['page'];
+                $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span>';
+               
+                if($btitle != $tmp)
+                {
+					echo "<a href=" . BASE_URL . "listing/toc/" . $book_id . "><span class=\"book-name\">$btitle</span></a>";
+					$tmp = $btitle;
+				}
+                echo "<ul>";                
+                echo "<li>$bullet$title</li>";
+                echo "</ul>";
+            }
+            echo "</div>";
+    }
 
     public function display_tabs($num)
     {

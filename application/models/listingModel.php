@@ -83,10 +83,12 @@ class listingModel extends Model {
 			$details['btitle'] = $result->btitle;
 			$details['level'] = $result->level;
 			$details['title'] = $result->title;
-			$details['author'] = $result->author;
 			$details['page'] = $result->page;
+			$details['author'] = $author;
 			array_push($data, $details);
 		}
+
+			
 
 		$dbh = null;
 		return $data;

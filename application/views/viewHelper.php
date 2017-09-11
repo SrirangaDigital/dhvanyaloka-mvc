@@ -28,15 +28,23 @@ class viewHelper extends View {
                 $title = $row['title'];
                 $authorname = $row['author'];
                 $page = $row['page'];
+                $authors = explode(',', $authorname);
                 
-                if($authorname != "")
+                if($authorname != '')
                 {
-                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/><a href="' . BASE_URL . 'listing/authors/' . $authorname . '"><span class="authorspan">&nbsp;&nbsp;&nbsp;-&nbsp;' . $authorname . '</span></a>';
-                }
-                else
-                {
-                    $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span>';
-                }
+					$title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/>';
+					$title .= '<span class="authorspan">';
+					$title .=  '&nbsp;&nbsp;&nbsp;-&nbsp;';
+					foreach($authors as $author)
+					{
+						$title .= '<a class="authName" href="' . BASE_URL . 'listing/authors/' . $author . '">' . $author . '</a>&nbsp;&nbsp;&nbsp;&nbsp;';
+					}
+					$title .= '</span>';
+				}
+				else
+				{
+					$title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span>';
+				}
 
                 if($first)
                 {
@@ -107,7 +115,6 @@ class viewHelper extends View {
                 $btitle = $row['btitle'];
                 $level = $row['level'];
                 $title = $row['title'];
-                $authorname = $row['author'];
                 $page = $row['page'];
                 $title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span>';
                

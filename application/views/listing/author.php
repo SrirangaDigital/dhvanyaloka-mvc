@@ -19,7 +19,7 @@
                         </ol>
 
                         <h1><?=$data[0]['author']?></h1>
-                        <h2>List of Articles</h2>
+                        <h2>Written below list of Articles</h2>
                         <?=$viewHelper->displayTitles($data)?>
                         <div class="cover-image-carousel">
 

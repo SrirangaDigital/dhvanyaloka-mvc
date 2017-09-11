@@ -5,16 +5,16 @@
 	<book code="001" btitle="F. R. Leavis - Birth Centenary Essays">
 		<s1 title="F.R. Leavis: Personal Reminiscences" author="C.D. Narasimhaiah" page="8"></s1>
 		<s1 title="F.R. Leavis in 1975 and in 1995" author="L.R. Leavis" page="20"></s1>
-		<s1 title="Leavis&#8217;s English" author="G. Singh, The Queen&#8217;s University of Belfast" page="24"></s1>
-		<s1 title="F.R. Leavis and the Indian Critical Scene" author="Mohan Ramanan, University of Hyderabad" page="39"></s1>
-		<s1 title="Literature, Science and Culture" author="Sachidananda Mohanty, University of Hyderabad" page="46"></s1>
-		<s1 title="Teaching Leavis, a Unique Experience" author="Sudha P. Pandya, M.S. University, Baroda" page="56"></s1>
-		<s1 title="Reading the Text: The Example of F.R. Leavis" author="S.C. Hajela, Lucknow University" page="64"></s1>
-		<s1 title="F.R. Leavis: a post-colonial cultural response" author="N. Manu Chakravarthy, N.M.K.R.V. College, Bangalore" page="70"></s1>
-		<s1 title="F.R. Leavis and a Plea for Liberal Education" author="C.N. Ramachandran, Mangalore University" page="80"></s1>
-		<s1 title="&#8220;Collaboration,&#8221; &#8220;Corroboration,&#8221; or &#8220;The Third Realm&#8221;?" author="M. Sridhar, University of Hyderabad" page="87"></s1>
-		<s1 title="Culture or Cultures? F.R. Leavis Against C.P. Snow" author="A. Madhavan, Formerly of Indian Foreign Service, now in Mysore" page="96"></s1>
-		<s1 title="The Provinicialism of F.R. Leavis" author="R.K. Kaul, University of Rajasthan" page="106"></s1>
+		<s1 title="Leavis&#8217;s English" author="G. Singh" page="24"></s1>
+		<s1 title="F.R. Leavis and the Indian Critical Scene" author="Mohan Ramanan" page="39"></s1>
+		<s1 title="Literature, Science and Culture" author="Sachidananda Mohanty" page="46"></s1>
+		<s1 title="Teaching Leavis, a Unique Experience" author="Sudha P. Pandya" page="56"></s1>
+		<s1 title="Reading the Text: The Example of F.R. Leavis" author="S.C. Hajela" page="64"></s1>
+		<s1 title="F.R. Leavis: a post-colonial cultural response" author="N. Manu Chakravarthy" page="70"></s1>
+		<s1 title="F.R. Leavis and a Plea for Liberal Education" author="C.N. Ramachandran" page="80"></s1>
+		<s1 title="&#8220;Collaboration,&#8221; &#8220;Corroboration,&#8221; or &#8220;The Third Realm&#8221;?" author="M. Sridhar" page="87"></s1>
+		<s1 title="Culture or Cultures? F.R. Leavis Against C.P. Snow" author="A. Madhavan" page="96"></s1>
+		<s1 title="The Provinicialism of F.R. Leavis" author="R.K. Kaul" page="106"></s1>
 		<s1 title="Dhvanyaloka Announcements" page="117"></s1>
 	</book>
 	<book code="002" btitle="Problems of Translation">
@@ -87,7 +87,7 @@
 		<s1 title="Writing Canadian Drama in Colonial Space : Interrogation and Subversion" author="Eugene Benson" page="57"></s1>
 		<s1 title="To Seize the Word Through &#8216;Unspeaking&#8217; : A Reading of France Theoret" author="Shirin Kudchedkar" page="70"></s1>
 		<s1 title="The Tyranny of Letters : Is Writing Deletion? : A Study of Lee Maraclea Sajaumers Truth and Other Stories" author="C.P. Ravichandra" page="82"></s1>
-		<s1 title="Nation and Narration : An Analysis of Joy Kogawa&#8217;s Fiction" author="Roshan G. Shahani &amp; Gitanjali Shahani" page="91"></s1>
+		<s1 title="Nation and Narration : An Analysis of Joy Kogawa&#8217;s Fiction" author="Roshan G. Shahani, Gitanjali Shahani" page="91"></s1>
 		<s1 title="&#8216;plunging toward stones not yet formed into flesh, language not yet made;&#8217; Dionne Brand&#8217;s &#8216;No Language is Neutral and the Poetics of the Possible&#8217;" author="Kalyani Pandya" page="103"></s1>
 		<s1 title="The Subversive Art of Margaret Atwood in &lt;i&gt;The Handmaids Tale&lt;/i&gt;" author="Kamala Gopalan" page="120"></s1>
 		<s1 title="The Audience-Player Interface: Crossing the Boards in &lt;i&gt;To Run With Longboat: Twelve Stories of Indian Athletes in Canada&lt;/i&gt;" author="B. Hariharan" page="132"></s1>
@@ -101,7 +101,7 @@
 		<s1 title="What is Common to the Arts?" author="S.L. Bhyrappa" page="26"></s1>
 		<s1 title="Poetry and Painting : A Study in Parallels" author="R.K. Raval" page="31"></s1>
 		<s1 title="Literature and Painting : What have the Two in Common?" author="Ragini Ramachandra" page="43"></s1>
-		<s1 title="Creativity : A Psychological Analysis" author="R.L. Kapur and Susmita Subramanyam" page="49"></s1>
+		<s1 title="Creativity : A Psychological Analysis" author="R.L. Kapur, Susmita Subramanyam" page="49"></s1>
 		<s1 title="The Art of Cartooning" author="R.K. Laxman" page="57"></s1>
 		<s1 title="Arts in a Period of Change" author="Keshav Malik" page="67"></s1>
 		<s1 title="Does Television Exist if you don't Watch it?" author="Arshia Sattar" page="72"></s1>
@@ -153,16 +153,16 @@
 	</book>
 	<book code="010" btitle="Commonwealth Autobiography">
 		<s1 title="Common wealth Autobiography : An Introduction" author="C.D. Narasimhaiah" page="7"></s1>
-		<s1 title="Autobiography and the Metaphysic of Transparency" author="Prabhat K. Singh, Magadh University, Gaya" page="0016"></s1>
-		<s1 title="In the Cultural Hall of Mirrors : Issue of Gender Genre Incompatibility of Women&#8217;s Autobiography" author="Ranjana Harish, Gujarat University" page="31"></s1>
-		<s1 title="Autobiography as History : The case of Fakir Mohan" author="Sachidananda Mohanty, University of Hyderabad" page="39"></s1>
-		<s1 title="The Ideologue and the Pragmatist/Strategist: Tonal variations in Commonwealth Autobiography" author="P. Radhika, Fatima Mata National College, Kollam" page="56"></s1>
-		<s1 title="Beyond Personal History : Zulfikar Ghose&#8217;s Confessions of A Native Alien" author="June Gaur, Mysore" page="69"></s1>
-		<s1 title="Flaws in the Glas" author="Gita Krishnakutty, Madras" page="77"></s1>
-		<s1 title="Two Indian English Autobiographies : A study in constrast" author="G.S. Balrama Gupta, Gulbarga University" page="80"></s1>
-		<s1 title="&#8220;THERE WAS A BOY&#8221;: Ake as Romantic Autobiography" author="Mary T. David, Mother Teresa University" page="89"></s1>
-		<s1 title="The Autobiographies of Two Globe Trotters" author="C.R. Nambiar, Mahatma Gandhi University, Kottayam" page="100"></s1>
-		<s1 title="Susanna Moodie; Roughing it in the Bush" author="Jayashree Sanjay, Mahajana College, Mysore" page="109"></s1>
+		<s1 title="Autobiography and the Metaphysic of Transparency" author="Prabhat K. Singh" page="0016"></s1>
+		<s1 title="In the Cultural Hall of Mirrors : Issue of Gender Genre Incompatibility of Women&#8217;s Autobiography" author="Ranjana Harish" page="31"></s1>
+		<s1 title="Autobiography as History : The case of Fakir Mohan" author="Sachidananda Mohanty" page="39"></s1>
+		<s1 title="The Ideologue and the Pragmatist/Strategist: Tonal variations in Commonwealth Autobiography" author="P. Radhika" page="56"></s1>
+		<s1 title="Beyond Personal History : Zulfikar Ghose&#8217;s Confessions of A Native Alien" author="June Gaur" page="69"></s1>
+		<s1 title="Flaws in the Glas" author="Gita Krishnakutty" page="77"></s1>
+		<s1 title="Two Indian English Autobiographies : A study in constrast" author="G.S. Balrama Gupta" page="80"></s1>
+		<s1 title="&#8220;THERE WAS A BOY&#8221;: Ake as Romantic Autobiography" author="Mary T. David" page="89"></s1>
+		<s1 title="The Autobiographies of Two Globe Trotters" author="C.R. Nambiar" page="100"></s1>
+		<s1 title="Susanna Moodie; Roughing it in the Bush" author="Jayashree Sanjay" page="109"></s1>
 		<s1 title="Short Notice" page="114"></s1>
 	</book>
 	<book code="011" btitle="African Literature Comes of Age">
@@ -230,7 +230,7 @@
 		</s1>
 		<s1 title="Section - II" page="161">
 			<s2 title="Tamil Culture and Society in Singapore" author="E. Sukumar" page="163"></s2>
-			<s2 title="Problematizing Identity : Asian, Indian, Kannadiga...?" author="H.S. Komalesha and Anjali Gera Roy" page="172"></s2>
+			<s2 title="Problematizing Identity : Asian, Indian, Kannadiga...?" author="H.S. Komalesha, Anjali Gera Roy" page="172"></s2>
 			<s2 title="Diplomatically Yours: Diplomats as Creative Writers" author="A.G. Khan" page="188"></s2>
 			<s2 title="Woman, Society and Religion : Tehmina Durrani&#8217;s Quest for Identity" author="K. Nirupa Rani" page="203"></s2>
 			<s2 title="Open Borders, Asian Immigrants and Expanding Ethos" author="C.P. Ravichandra" page="212"></s2>
@@ -326,7 +326,7 @@
 		<s1 title="Kannada Language and the Crises in the World" author="Chandrashekar Kambar" page="75"></s1>
 		<s1 title="The Age of Kuvempu" author="K.S. Bhagavan" page="84"></s1>
 		<s1 title="UR Ananthamurthy Ponders on Bhishma - A Commemorative Submission" author="T.R.S. Sharma" page="104"></s1>
-		<s1 title="The Words of Tatva" author="Krishna Murthy Hanuru" page="111"></s1>
+		<s1 title="The Words of Tatva" author="Krishna Murthy" page="111"></s1>
 		<s1 title="Sediyapu Krishna Bhatta&#8217;s Contribution: A Note" author="C. Naganna" page="116"></s1>
 		<s1 title="Bendre&#8217;s Poetry" author="G. Krishnappa" page="129"></s1>
 		<s1 title="Literary Journals in Kannada" author="Chandrashekar Patil" page="136"></s1>
@@ -500,7 +500,7 @@
 		<s1 title="The Impact of T.S. Eliot on Contemporary Tamil Poetry" author="P.M. Marudanayagam" page="123"></s1>
 		<s1 title="T.S. Eliot and Modern Telugu Poetry" author="K. Godavari Sarma" page="133"></s1>
 		<s1 title="Mardhekar and T.S. Eliot : A Study in Reception" author="Chandrashekhar Jahagirdar" page="141"></s1>
-		<s1 title="I.A. Richards and T.S. Eliot : A Dialogue on Poetry and Belief with a Kannada Footnote" author="G. S. Amur" page="154"></s1>
+		<s1 title="I.A. Richards and T.S. Eliot : A Dialogue on Poetry and Belief with a Kannada Footnote" author="G.S. Amur" page="154"></s1>
 		<s1 title="T.S. Eliot&#8217;s Critical Method" author="Sudhakar Marathe" page="164"></s1>
 		<s1 title="On Translating T.S. Eliot&#8217;s Poetry into Malayalam" author="Ayyappa Paniker" page="173"></s1>
 		<s1 title="T.S. Eliot and the Indian Sensibility : An Appositive Study of Kalapurusha and the Waste Land" author="Madusudan Pati" page="183"></s1>

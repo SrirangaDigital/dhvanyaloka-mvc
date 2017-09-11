@@ -37,6 +37,7 @@ class viewHelper extends View {
 					$title .=  '&nbsp;&nbsp;&nbsp;-&nbsp;';
 					foreach($authors as $author)
 					{
+						$author = preg_replace('/^[\s]/', '', $author);
 						$title .= '<a class="authName" href="' . BASE_URL . 'listing/authors/' . $author . '">' . $author . '</a>&nbsp;&nbsp;&nbsp;&nbsp;';
 					}
 					$title .= '</span>';

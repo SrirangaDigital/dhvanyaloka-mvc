@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE dhvanyaloka SYSTEM "apk_kannada.dtd">
+<!DOCTYPE dhvanyaloka SYSTEM "dhvanyaloka.dtd">
 
 <dhvanyaloka>
 	<book code="001" btitle="F. R. Leavis - Birth Centenary Essays">
@@ -18,7 +18,7 @@
 		<s1 title="Dhvanyaloka Announcements" page="117"></s1>
 	</book>
 	<book code="002" btitle="Problems of Translation">
-		<s1 title="Introduction" page="5"></s1>
+		<s1 title="Introduction" author="C.D. Narasimhaiah" page="5"></s1>
 		<s1 title="What is Literal Translation?" author="K.S. Ram" page="9"></s1>
 		<s1 title="On Translation of Vachanas" author="D.P. Pattanayak" page="19"></s1>
 		<s1 title="On Translating Literature" author="Avadhesh K. Srivastava" page="24"></s1>
@@ -69,7 +69,7 @@
 		<s1 title="Kipling- &lt;i&gt;Alan Maley&lt;/i&gt;" page="14"></s1>
 		<s1 title="Kipling as Chronicler of the Empire : Ambivalences and Archetypes" author="C.N. Ramachandran" page="18"></s1>
 		<s1 title="Collective Identity in Kipling&#8217;s &lt;i&gt;Kim&lt;/i&gt; : Deconstructing Imperialism -&lt;i&gt;K. Raghavendra Rao&lt;/i&gt;" page="28"></s1>
-		<s1 title="Rudyard Kipling and the Indian Novel in English" author="K. S. Ramamurthi" page="37"></s1>
+		<s1 title="Rudyard Kipling and the Indian Novel in English" author="K.S. Ramamurthi" page="37"></s1>
 		<s1 title="The Relevance of the Irish Aspect in Rudyard Kipling&#8217;s &lt;i&gt;Kim&lt;/i&gt;" author="J. Mukherjee" page="47"></s1>
 		<s1 title="The Child in Kipling&#8217;s Fiction : An Analysis" author="Radha Achar" page="52"></s1>
 		<s1 title="Kipling&#8217;s India : A Study of Some Short Stories" author="S.T. Sharma" page="60"></s1>
@@ -120,7 +120,7 @@
 		<s1 title="A Report" page="182"></s1>
 	</book>
 	<book code="008" btitle="The Flowering of Australian Literature">
-		<s1 title="Preface" page="7"></s1>
+		<s1 title="Preface" author="C.D. Narasimhaiah" page="7"></s1>
 		<s1 title="Introduction" author="C.D. Narasimhaiah" page="11"></s1>
 		<s1 title="A Later Note on &#8216;Identity&#8217;" author="Vincent Buckley" page="31"></s1>
 		<s1 title="Australian Literature of the 1890&#8217;s" author="John Docker" page="37"></s1>
@@ -134,7 +134,7 @@
 		<s1 title="Naturalism and Seriousness in Australian Drama Today" author="T. Burvill" page="147"></s1>
 		<s1 title="Australian Literary History" author="Chris Wallace Crabbe" page="161"></s1>
 		<s1 title="Bosom of Nature or Heart of Stone : A difference in Heritage" author="Andrew Taylor" page="174"></s1>
-		<s1 title="Teaching Australian Literature : Notes and Recollections" author="A. D. Hope" page="187"></s1>
+		<s1 title="Teaching Australian Literature : Notes and Recollections" author="A.D. Hope" page="187"></s1>
 		<s1 title="More Sinned Against than Sinning : A Note on the Convict Legend" author="Barry Andrews" page="196"></s1>
 		<s1 title="Thomas Keneally&#8217;s &lt;i&gt;Passenger&lt;/i&gt; and teh Middle Voice" author="Mark Macleod" page="213"></s1>
 		<s1 title="Australia : A Backward Glimpse" author="Geoffrey Blainey" page="225"></s1>
@@ -166,8 +166,8 @@
 		<s1 title="Short Notice" page="114"></s1>
 	</book>
 	<book code="011" btitle="African Literature Comes of Age">
-		<s1 title="Foreword" page="3"></s1>
-		<s1 title="Introduction" page="7"></s1>
+		<s1 title="Foreword" author="C.D. Narasimhaiah" page="3"></s1>
+		<s1 title="Introduction" author="Ernest N. Emenyonu" page="7"></s1>
 		<s1 title="Part One : Oral Heritage" page="9">
 			<s2 title="Igbo Folklore" author="E. Onwukwe" page="9"></s2>
 		</s1>
@@ -298,10 +298,10 @@
 		<s1 title="Notices from His Window - A Reading of R.K. Narayan&#8217;s A &lt;i&gt;Writer&#8217;s Nightmare&lt;/i&gt;" author="Vijay Sheshadri" page="91"></s1>
 	</book>
 	<book code="017" btitle="Indian Women&#8217;s Fiction Today">
-		<s1 title="Cooking India, the Fusion Trend: Reflecting On Indian Fiction in English Today" author="G. K. Das" page="7"></s1>
+		<s1 title="Cooking India, the Fusion Trend: Reflecting On Indian Fiction in English Today" author="G.K. Das" page="7"></s1>
 		<s1 title="Does the Indian English Woman Novelist write from the Margin?" author="Bijay Kumar Das" page="15"></s1>
 		<s1 title="The Influence of Virginia Woolf on Women Novelists in Indian Fiction" author="M.Q. Khan" page="31"></s1>
-		<s1 title="If Memories be Sweet: Thrity Umrigar&#8217;s Parsi-Imaging of Contemporary India" author="A. S. Dasan" page="49"></s1>
+		<s1 title="If Memories be Sweet: Thrity Umrigar&#8217;s Parsi-Imaging of Contemporary India" author="A.S. Dasan" page="49"></s1>
 		<s1 title="A Critique of Manju Kapur&#8217;s novel &lt;i&gt;The Immigrant&lt;/i&gt;" author="Tapati Talukdar" page="63"></s1>
 		<s1 title="Conflicting Memories in Reema Moudgil&#8217;s &lt;i&gt;Perfect Eight&lt;/i&gt;" author="K. Yeshoda Nanjappa" page="72"></s1>
 		<s1 title="Between the Reel and the Real: A Reading of Jaishree Misra&#8217;s &lt;i&gt;Secrets and Lies&lt;/i&gt; (2009) and &lt;i&gt;Secrets and Sins&lt;/i&gt; (2010)" author="Vijay Sheshadri" page="81"></s1>
@@ -333,7 +333,7 @@
 	</book>
 	<book code="019" btitle="Drama as Form of Art and Theatre">
 		<s1 title="By way of Introduction to the Symposium" author="C.D. Narasimhaiah" page="9"></s1>
-		<s1 title="The Alchemy of Company Theatre" author="K.v. Akshara" page="18"></s1>
+		<s1 title="The Alchemy of Company Theatre" author="K.V. Akshara" page="18"></s1>
 		<s1 title="Folk Theatre and Social Structures : Tentative Comments" author="C.N. Ramachandran" page="25"></s1>
 		<s1 title="The Status of Drama in an Age of Film, Television, Radio" author="Vasanthi Shankaranarayanan" page="32"></s1>
 		<s1 title="Harikatha as a Performing Art" author="C.N. Srinath" page="40"></s1>
@@ -346,7 +346,7 @@
 		<s1 title="&lt;i&gt;Othello&lt;/i&gt; and &lt;i&gt;Winter&#8217;s Tale:&lt;/i&gt; A Dual Vision" author="Ragini Ramachandra" page="91"></s1>
 		<s1 title="The Mobile Theatre in Karnataka" author="Sindhuvally Ananthamurthy" page="100"></s1>
 		<s1 title="The Influence of Rituals on the Modern Malayalam Theatre" author="H. Sadasivan Pillai" page="105"></s1>
-		<s1 title="Drama as Ritual" author="B. Chandrika" page="116"></s1>
+		<s1 title="Drama as Ritual" author="Chandrika B." page="116"></s1>
 		<s1 title="Lesson on Dramatic Design" author="M.S. Pati" page="124"></s1>
 		<s1 title="Impact of Cinema and Television on Recent Kannada Theatre" author="Laxmi Chandrashekar" page="136"></s1>
 		<s1 title="Perspective on Acting in Traditional Theatre of Kerala" author="Chandradasan" page="141"></s1>
@@ -381,7 +381,7 @@
 		<s1 title="Great Moments in Life and Literature" author="Ragini Ramachandra" page="52"></s1>
 		<s1 title="Exile in Life and Literature" author="C.N. Srinath" page="61"></s1>
 		<s1 title="Under the Shadow of the Stealth Bomber" author="Ravichandra P. Chittampalli" page="70"></s1>
-		<s1 title="Soka and Sloka" author="H.S. Komalesh" page="78"></s1>
+		<s1 title="Soka and Sloka" author="H.S. Komalesha" page="78"></s1>
 		<s1 title="Great Moments in Life A &#8216;Brush&#8217; with Sir C.V." author="G.T. Narayana Rao" page="82"></s1>
 		<s1 title="Expanding Moments" author="Prabhat K. Singh" page="90"></s1>
 		<s1 title="C.N. Sanjay Birth Anniversary Symposium: A Retrospect" author="Ragini Ramachandra" page="98"></s1>
@@ -407,8 +407,7 @@
 			<s2 title="Chris Orsman" page="120"></s2>
 			<s2 title="Alan Riach" page="125"></s2>
 		</s1>
-		<s1 title="Notes Towards Exploration of Australasian Bonds" page="131"></s1>
-		<s1 title="Appendix" page="130"></s1>
+		<s1 title="Appendix: Notes Towards Exploration of Australasian Bonds" author="C.D. Narasimhaiah" page="131"></s1>
 	</book>
 	<book code="023" btitle="The Vitality of West Indian Literature - Caribbean and Indian Essasys">
 		<s1 title="In Guyana, at the Celebration of Indian Immigration: Search for Perspectives" author="C.D. Narasimhaiah" page="12"></s1>
@@ -458,17 +457,17 @@
 		<s1 title="Classical Sanskrit Poetics Then and Now" author="Ashok R. Kelkar" page="26"></s1>
 		<s1 title="Relevance of Classical Western Criticism in the Formulation of a Common Indian Poetic" author="B. Damodar Rao" page="38"></s1>
 		<s1 title="The Case for an Indian Poetic Based on the Dhvani Theory" author="Krishna Rayan" page="49"></s1>
-		<s1 title="The Three Alternatives" author="R. B. Patankar" page="59"></s1>
+		<s1 title="The Three Alternatives" author="R.B. Patankar" page="59"></s1>
 		<s1 title="Absence of Tragedy in Sanskrit Kavya-Literature" author="Leela Arjunwadkar" page="72"></s1>
 		<s1 title="Sinhala Literature and the Concepts of Sanskrit Poetics" author="Edeervira Sarachandra" page="82"></s1>
 	</book>
 	<book code="026" btitle="Bhakti in Indian Literature">
-		<s1 title="An Introduction" author="C.D.N." page="7"></s1>
+		<s1 title="An Introduction" author="C.D. Narasimhaiah" page="7"></s1>
 		<s1 title="&lt;i&gt;Bhakti&lt;/i&gt; in Life and Literature" author="S. Laxmana Murthy" page="16"></s1>
 		<s1 title="Nuances of Bhakti in the Ramayana" author="K.S. Narayanachar" page="23"></s1>
 		<s1 title="Bhakti as Celebration of Life" author="C.N. Ramachandran" page="36"></s1>
 		<s1 title="Bhakti of the Saranas - A Dynamic Literary Force" author="H. Thipperudra Swamy" page="47"></s1>
-		<s1 title="An Approach to Dasa Sahitya" author="G. S. Amur" page="58"></s1>
+		<s1 title="An Approach to Dasa Sahitya" author="G.S. Amur" page="58"></s1>
 		<s1 title="Bhakti Movement in Tamil : Special Emphasis on Manickavasagar and Andal" author="R.S. Pillai" page="66"></s1>
 		<s1 title="Bhakti-Poetry in Hindi: Its Response to Challenges" author="Ramesh Chandra Shah" page="75"></s1>
 		<s1 title="Bhakti in Telugu Folk Poetry" author="K.V. Hanumantha Rao" page="88"></s1>
@@ -537,7 +536,7 @@
 		</s1>
 		<s1 title="V. Comments and Reviews" page="217">
 			<s2 title="Indian-English Literature in the Classroom" author="Sujit Mukherjee" page="219"></s2>
-			<s2 title="Reviews" author="C.D.N., S.N.K., Bhatia, I.D., N.P." page="224"></s2>
+			<s2 title="Reviews" author="C.D. Narasimhaiah, Nimmie Poovaya, S.N. Kumar, S.C. Bhatia, Susan Daniel" page="224"></s2>
 		</s1>
 	</book>
 	<book code="029" btitle="Tenth year of Publication">

@@ -122,12 +122,17 @@ span.img-small img{
 	color: #6d0a08;
 	padding: 10px 0 10px 0;
 }
+.bookTitle{
+	font-size: 16px;
+	color: #6d0a08;
+}
 
 .treeview ul li {
 	color:#ea5644;
-	list-style-type: none;                                
+	list-style-type: none;
 	list-style-position:outside;
 	font-size: 1em;
+	margin-bottom: 10px;
 	text-align: justify;
 	text-indent: -18px;
 }
@@ -144,9 +149,12 @@ span.img-small img{
 }
 .authorspan{
 	color: #ea5644;
+	font-size: 16px;
+	font-style: italic;
 }
 .authorspan .authName{
 	color: #ea5644;
 }
-
-
+.titleList li .sub_titlespan{
+	font-size: 15px;
+}

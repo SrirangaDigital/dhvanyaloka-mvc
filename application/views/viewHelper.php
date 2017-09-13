@@ -121,10 +121,10 @@ class viewHelper extends View {
                
                 if($btitle != $tmp)
                 {
-					echo "<a href=" . BASE_URL . "listing/toc/" . $book_id . "><span class=\"book-name\">$btitle</span></a>";
+					echo "<a href=" . BASE_URL . "listing/toc/" . $book_id . "><span class=\"bookTitle\">$btitle</span></a>";
 					$tmp = $btitle;
 				}
-                echo "<ul>";                
+                echo "<ul class=\"titleList\">";
                 echo "<li>$bullet$title</li>";
                 echo "</ul>";
             }

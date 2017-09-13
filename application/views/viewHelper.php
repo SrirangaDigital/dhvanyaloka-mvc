@@ -35,10 +35,19 @@ class viewHelper extends View {
 					$title = '<span class="sub_titlespan">' . $this->linkPDF($book_id, $page, $title) . '</span><br/>';
 					$title .= '<span class="authorspan">';
 					$title .=  '&nbsp;&nbsp;&nbsp;-&nbsp;';
+					$fl = 0;
 					foreach($authors as $author)
 					{
 						$author = preg_replace('/^[\s]/', '', $author);
-						$title .= '<a class="authName" href="' . BASE_URL . 'listing/authors/' . $author . '">' . $author . '</a>&nbsp;&nbsp;&nbsp;&nbsp;';
+						if($fl == 0)
+						{
+							$title .= '<a class="authName" href="' . BASE_URL . 'listing/authors/' . $author . '">' . $author . '</a>';
+							$fl = 1;
+						}
+						else
+						{
+							$title .= '&nbsp;,&nbsp;&nbsp;<a class="authName" href="' . BASE_URL . 'listing/authors/' . $author . '">' . $author . '</a>';
+						}
 					}
 					$title .= '</span>';
 				}

@@ -7,7 +7,7 @@
                     <div class="col-md-3 clear-paddings subnav">
                        <ul class="">
                             <li><a class="active" href="<?=BASE_URL?>listing/books">Special Issues</a></li>
-                            <li><a href="../The_Literary_Criterion/#Subscription">Subscription</a></li>
+                            <li><a href="<?=BASE_URL?>The_Literary_Criterion/#Subscription">Subscription</a></li>
                         </ul>
                     </div>
                     <div class="col-md-9 clear-paddings">

@@ -64,6 +64,7 @@ class listingModel extends Model {
 
 	public function listTitles($author) {
 		
+		$author = html_entity_decode($author,ENT_QUOTES);
 		$db = DB_NAME;
 		
 		$dbh = $this->db->connect($db);

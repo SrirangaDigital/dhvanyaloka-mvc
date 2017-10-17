@@ -6,24 +6,40 @@
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel" data-slide-to="2" class=""></li>
+                    <li data-target="#carousel" data-slide-to="3" class=""></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="<?=PUBLIC_URL?>images/stock/trees.jpg" alt="Dhvanyaloka">
+                        <img src="<?=PUBLIC_URL?>images/stock/slide1.jpg" alt="Dhvanyaloka">
                         <div class="override-carousel-caption pos-c-full scheme-dark">
                             <div class="caption-content">
-                                <h3 class="caption-title">Dhvanyaloka Centre for Indian Studies</h3>
-                                <p>A subsidiary of Dhvanyaloka Acadmey Foundation Private Limited</p>
+                                <p>Dhvanyaloka Center for English Studies and Indigenous Art</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="<?=PUBLIC_URL?>images/stock/awards.jpg" alt="Awards">
+                        <img src="<?=PUBLIC_URL?>images/stock/slide2.jpg" alt="Awards">
                         <div class="override-carousel-caption pos-c-full scheme-dark">
                             <div class="caption-content">
-                                <h3 class="caption-title">Dhvanyaloka</h3>
                                 <p>The Centre is dedicated to the renewal of this rich potential in our approach to work of art. Svalpam Apyasya Dharmasya!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="<?=PUBLIC_URL?>images/stock/slide3.jpg" alt="Awards">
+                        <div class="override-carousel-caption pos-c-full scheme-dark">
+                            <div class="caption-content">
+                                <p>A rich library and reading area</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="<?=PUBLIC_URL?>images/stock/slide4.jpg" alt="Awards">
+                        <div class="override-carousel-caption pos-c-full scheme-dark">
+                            <div class="caption-content">
+                                <p>Sally Sage McAlpin Auditorium</p>
                             </div>
                         </div>
                     </div>

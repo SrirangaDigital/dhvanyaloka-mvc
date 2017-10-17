@@ -3,12 +3,28 @@
         <!-- Column 1 -->
         <div class="col-md-12 clear-paddings">
             <div class="col-padded"><!-- inner custom column -->
-                <blockquote>
-                    <span class="head">The Name</span><br />
-                    The Centre is named after Dhvanyaloka, the title of a critical work of the 9th century A.D. by Anandavardhana representing the highest peak of Indian genius in critical response to works of art. “Dhvani” literally means sound, but, rightly, for Ananda K.Coomaraswamy, it is sounding which means one continues to hear the reverberations of what one has read, seen or heard in the deep heart’s silence. Anandavardhana’s work sheds light on all this in Art Experience. The Centre is dedicated to the renewal of this rich potential in our approach to work of art. Svalpam Apyasya Dharmasya…!
-                </blockquote>
+                <div class="row gap-above gap-below-large">
+                    <div class="col-md-2 text-center">
+                        <img id="conch" alt="Dhvanyaloka Conch" style="display: inline" src="<?=STOCK_IMAGE_URL?>dhvanyaloka_conch.png" class="img-responsive"/>
+                    </div>
+                    <div class="col-md-10 text-center">
+                        <blockquote class="row">
+                            <span class="head">The Name</span><br />
+                            The Centre is named after Dhvanyaloka, the title of a critical work of the 9th century A.D. by Anandavardhana representing the highest peak of Indian genius in critical response to works of art. “Dhvani” literally means sound, but, rightly, for Ananda K.Coomaraswamy, it is sounding which means one continues to hear the reverberations of what one has read, seen or heard in the deep heart’s silence. Anandavardhana’s work sheds light on all this in Art Experience. The Centre is dedicated to the renewal of this rich potential in our approach to work of art. Svalpam Apyasya Dharmasya…!
+                        </blockquote>
+                        <!-- <img alt="Dhvanyaloka Conch" style="display: inline" src="<?=STOCK_IMAGE_URL?>screenshot.png" class="img-responsive"/> -->
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/O_mYaFo1WlE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+                    </div>
+                </div>
 
-                <h1>Dhvanyaloka</h1>
+                <div class="row gap-below-large">
+                    <div class="col-md-12 text-center">
+                        <!-- <img alt="Dhvanyaloka Conch" style="display: inline" src="<?=STOCK_IMAGE_URL?>screenshot.png" class="img-responsive"/> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwzXOloaQ5g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+<!--                 <h1>Dhvanyaloka</h1>
                 <div class="cover-image-carousel-nogap" id="information">
                     <a href="<?=BASE_URL?>About" class="info-icon">
                         <i class="fa fa-info-circle"></i><br />
@@ -30,7 +46,7 @@
                         <i class="fa fa-map-marker"></i><br />
                         Location
                     </a>
-                </div>
+                </div> -->
    
                 <h1>The Literary Criterion</h1>
                 <p class="intro">The Literary Criterion the most influential critical journal in English in India for the past 58 years, apart from generating a critical climate, has introduced American literature, Commonwealth Literature, and promoted Indian writing in English Translation studies and our own ancient traditional critical theories.</p>
@@ -40,8 +56,7 @@
                 </div>
                 <h1 id="Location">Location</h1>
                 <p class="intro text-center">
-                    <strong>Dhvanyaloka Centre for Indian Studies</strong><br />
-                    (A Subsidiary of Dhvanyaloka Academy Foundation Private Limited)<br />
+                    <strong>Dhvanyaloka Center for English Studies and Indigenous Art</strong><br />
                     124, Bhogadi Road,<br />
                     MYSORE – 570 006. INDIA<br />
                     Phone: 0821 -2344866 / 826 / 827<br />

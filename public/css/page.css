@@ -32,7 +32,7 @@
 .mainpage blockquote{
     font-size: 16px;
     line-height: 32px;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
     font-style: italic;
@@ -93,6 +93,10 @@
     -moz-transition: 0.2s ease-in-out all;
     -o-transition: 0.2s ease-in-out all;
     transition: 0.2s ease-in-out all;
+}
+.mainpage #conch{
+    width: 200px;
+    margin-top: 50px;
 }
 .copy-text {
     font-size: 12px;

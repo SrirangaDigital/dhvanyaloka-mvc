@@ -4,7 +4,7 @@
             <div class="row"><!-- row -->
                 <div class="col-lg-6">
                     <p class="copy-text text-left">
-                        © 2017 Dhvanyaloka Academy Foundation Private Limited, Mysuru.
+                        © 2017 Dhvanyaloka Center for English Studies and Indigenous Art, Mysuru.
                     </p>
                 </div>
                 <div class="col-lg-6">

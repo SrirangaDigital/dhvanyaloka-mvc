@@ -15,7 +15,7 @@
                         <img src="<?=PUBLIC_URL?>images/stock/slide1.jpg" alt="Dhvanyaloka">
                         <div class="override-carousel-caption pos-c-full scheme-dark">
                             <div class="caption-content">
-                                <p>Dhvanyaloka Center for English Studies and Indigenous Art</p>
+                                <p>Dhvanyaloka Center for English Studies and Indigenous Arts</p>
                             </div>
                         </div>
                     </div>

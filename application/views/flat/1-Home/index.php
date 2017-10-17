@@ -56,7 +56,7 @@
                 </div>
                 <h1 id="Location">Location</h1>
                 <p class="intro text-center">
-                    <strong>Dhvanyaloka Center for English Studies and Indigenous Art</strong><br />
+                    <strong>Dhvanyaloka Center for English Studies and Indigenous Arts</strong><br />
                     124, Bhogadi Road,<br />
                     MYSORE – 570 006. INDIA<br />
                     Phone: 0821 -2344866 / 826 / 827<br />

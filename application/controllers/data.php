@@ -50,6 +50,7 @@ class data extends Controller {
 
 		// stage2.html : Output html for conversion
 		$fileName = PHY_PUBLIC_URL . 'html/stage2.html';
+		// $processedHTML = html_entity_decode($processedHTML, ENT_QUOTES);
 		file_put_contents($fileName, $processedHTML);
 
 		// Convert APS data to Unicode retaining html tags
@@ -57,15 +58,17 @@ class data extends Controller {
 
 		// stage3.html : Output Unicode html with tags, english retained as it is
 		$fileName = PHY_PUBLIC_URL . 'html/stage3.html';
-		$processedHTML = html_entity_decode($processedHTML, ENT_QUOTES);
 		file_put_contents($fileName, $unicodeHTML);
 	}
 
 	public function parseHTML($html) {
 
-		$simpleXML = simplexml_load_string($html);
-		$dom = dom_import_simplexml($simpleXML);
-		$xpath = new DOMXpath($dom->ownerDocument);
+		$dom = new DOMDocument("1.0");
+		$dom->preserveWhiteSpace = false;
+		$dom->formatOutput = true;
+
+		$dom->loadXML($html);
+		$xpath = new DOMXpath($dom);
 
 		foreach($xpath->query('//text()') as $text_node) {
 
@@ -78,7 +81,7 @@ class data extends Controller {
 			$text_node->nodeValue = $this->APS2Unicode($text_node->nodeValue);
 		}
 
-		return $simpleXML->asXML();
+		return $dom->saveXML();
 	}
 
 	public function processRawHTML($text) {
@@ -153,7 +156,7 @@ class data extends Controller {
 
 	public function APS2Unicode($text) {
 
-		return $text;
+		return 'Hello';
 	}
 }
 

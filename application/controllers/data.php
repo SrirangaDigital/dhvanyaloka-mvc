@@ -39,74 +39,121 @@ class data extends Controller {
 		}
 	}
 
-	public function parseHTML() {
+	public function process() {
 
+		// stage1.html : Input html from adobe acrobat
+		$fileName = PUBLIC_URL . 'html/stage1.html';
+		$rawHTML = file_get_contents($fileName);
 
-		$fileName = PUBLIC_URL . 'html/test.html';
-		$xml = simplexml_load_file($fileName);
+		// Process html to strip off unwanted tags and elements
+		$processedHTML = $this->processRawHTML($rawHTML);
 
-		$dom = dom_import_simplexml($xml);
+		// stage2.html : Output html for conversion
+		$fileName = PHY_PUBLIC_URL . 'html/stage2.html';
+		file_put_contents($fileName, $processedHTML);
 
-		$counter = 1;
-		$xpath = new DOMXpath($dom->ownerDocument);
-		foreach($xpath->query('//text()') as $text_node) {
+		// Convert APS data to Unicode retaining html tags
+		$unicodeHTML = $this->parseHTML($processedHTML);
 
-		    if(preg_replace('/\s+/', '', $text_node->nodeValue)) $text_node->nodeValue = $this->APS2Unicode($text_node->nodeValue);
-		}
-
-		// $this->recurseXML($xml);
-
-		var_dump($xml->asXML());
+		// stage3.html : Output Unicode html with tags, english retained as it is
+		$fileName = PHY_PUBLIC_URL . 'html/stage3.html';
+		$processedHTML = html_entity_decode($processedHTML, ENT_QUOTES);
+		file_put_contents($fileName, $unicodeHTML);
 	}
 
-	public function recurseXML($xml) {
+	public function parseHTML($html) {
 
-		$childCount = $xml->count();
-		$ifStringExists = preg_replace('/\s+/', '', $xml->__toString());
+		$simpleXML = simplexml_load_string($html);
+		$dom = dom_import_simplexml($simpleXML);
+		$xpath = new DOMXpath($dom->ownerDocument);
 
-		if($childCount > 0) {
+		foreach($xpath->query('//text()') as $text_node) {
 
-			if($ifStringExists) {
+			if(preg_replace('/\s+/', '', $text_node->nodeValue) === '') continue; 
 
-				// Compound: Both text and elements are present
-				
-				$dom = dom_import_simplexml($xml);
+			if($text_node->parentNode->hasAttribute('class'))
+				if($text_node->parentNode->getAttribute('class') == 'en')
+					 continue;
 
-				$counter = 1;
-				$xpath = new DOMXpath($dom->ownerDocument);
-				foreach($xpath->query('//text()') as $text_node) {
-
-					// var_dump($text_node);
-				    $text_node->nodeValue = $this->APS2Unicode($text_node->nodeValue);
-				}
-
-				// echo $sx->asXML();
-
-				foreach ($xml as $key => $child) {
-
-					$this->recurseXML($child);
-				}
-				// $xml[0] = $this->APS2Unicode($xml->__toString());
-			}	
-			else{
-
-				// Recursive: only elements found
-				foreach ($xml as $key => $child) {
-
-					$this->recurseXML($child);
-				}
-			}
+			$text_node->nodeValue = $this->APS2Unicode($text_node->nodeValue);
 		}
-		else {
 
-			// Only text found
-			$xml[0] = $this->APS2Unicode($xml->__toString());
-		}
+		return $simpleXML->asXML();
+	}
+
+	public function processRawHTML($text) {
+
+		$text = preg_replace('/<!--.*/', "", $text);
+		$text = preg_replace('/<BODY.*>/', "<BODY>", $text);
+
+		$text = str_replace("\n", "", $text);
+		$text = str_replace("\r", "", $text);
+
+		$text = str_replace('<', "\n<", $text);
+		$text = str_replace('>', ">\n", $text);
+		$text = preg_replace('/<!--.*/', "", $text);
+
+
+		$text = str_replace('font-weight:normal', "", $text);
+		$text = preg_replace('/text-align:.+?\b/', "", $text);
+		$text = preg_replace('/color:#[0-9A-F]+/', "", $text);
+		$text = preg_replace('/margin-.+?\b:.+?\b/', "", $text);
+		$text = preg_replace('/line-height:.+?\b/', "", $text);
+		$text = preg_replace('/text-indent:[\-]*.+?\b/', "", $text);
+		$text = preg_replace('/list-style-type:.+?\b/', "", $text);
+		$text = preg_replace('/font-size:[0-9\.]+?pt\b/', "", $text);
+		$text = preg_replace('/<SPAN .*(Times|serif).*>/', '<SPAN class="en">', $text);
+		$text = preg_replace("/\n<IMG.*/", "", $text);
+
+		$text = str_replace("; ", ";", $text);
+		$text = preg_replace("/;+/", ";", $text);
+		$text = str_replace(' style=";', ' style="', $text);
+		$text = str_replace(' style=";"', '', $text);
+		$text = str_replace(' style=" "', '', $text);
+		$text = str_replace(' style=""', '', $text);
+
+		$text = preg_replace("/\n+/", "\n", $text);
+
+		$text = preg_replace("/(<SPAN.*)\n/", "$1", $text);
+		$text = preg_replace("/\n(<SPAN.*)/", "$1", $text);
+		$text = str_replace("\n</SPAN>", "</SPAN>", $text);
+
+		$text = str_replace("<Sup>\n", "<Sup>", $text);
+		$text = str_replace("\n</Sup>", "</Sup>", $text);
+
+		$text = str_replace("<Sub>\n", "<Sub>", $text);
+		$text = str_replace("\n</Sub>", "</Sub>", $text);
+
+		$text = str_replace("\n</P>", "</P>", $text);
+		$text = str_replace("\n</LI>", "</LI>", $text);
+		$text = str_replace("\n</DT>", "</DT>", $text);
+		$text = str_replace("\n</DD>", "</DD>", $text);
+		$text = preg_replace("/\n(<\/H\d>)/", "$1", $text);
+		$text = str_replace("\n ", " ", $text);
+
+		$text = str_replace("<SPAN", "\n<SPAN", $text);
+		$text = str_replace("</SPAN>", "</SPAN>\n", $text);
+		$text = preg_replace("/\n<SPAN>(.*)<\/SPAN>\n/", "$1", $text);
+		$text = preg_replace("/\n(<SPAN.*<\/SPAN>)\n/", "$1", $text);
+
+		$text = str_replace("\n<SPAN", "<SPAN", $text);
+		$text = str_replace("</SPAN>\n", "</SPAN>", $text);
+
+		$text = str_replace("\n<Sup>", "<Sup>", $text);
+		$text = str_replace("</Sup>\n", "</Sup>", $text);
+
+		$text = str_replace("\n<Sub>", "<Sub>", $text);
+		$text = str_replace("</Sub>\n", "</Sub>", $text);
+
+		$text = str_replace("<DIV", "<SECTION", $text);
+		$text = str_replace("</DIV>", "</SECTION>", $text);
+
+		return $text;
 	}
 
 	public function APS2Unicode($text) {
 
-		return 'Hello';
+		return $text;
 	}
 }
 

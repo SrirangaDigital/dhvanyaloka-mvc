@@ -56,7 +56,9 @@
                 </div>
                 
                 <h1>Mysore Mystique</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLlr-5IVh3MhcfLI68_6won9nu8IUhNCWQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLlr-5IVh3MhcfLI68_6won9nu8IUhNCWQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
                 
                 <h1 id="Location">Location</h1>
                 <p class="intro text-center">

@@ -1,8 +1,4 @@
-<div class="col-md-3 clear-paddings subnav">
-	<ul class="">
-		<li><a href="<?=BASE_URL?>listing/books">Special Issues</a></li>
-		<li><a href="#Subscription">Subscription</a></li>
-	</ul>
+<div class="col-md-3 clear-paddings subnav">&nbsp;
 </div>
 <div class="col-md-9 clear-paddings" id="viewimages">
 	<?=$this->printBreadcrumb($path)?>

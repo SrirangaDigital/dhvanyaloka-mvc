@@ -20,5 +20,9 @@
 
     <!-- End Main page layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Javascript calls
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js?v=1.5"></script>
+    <script type="text/javascript" src="<?=PUBLIC_URL?>js/common.js?v=1.5"></script>
 </body>
 </html>
